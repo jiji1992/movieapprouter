@@ -1,0 +1,26 @@
+.conteneur {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgb(26, 25, 25);
+  padding-top: 20px;
+}
+.conteneur .card {
+  margin-top: 50px;
+}
+
+.cred {
+  color: red;
+  font-size: 50px;
+}
+.fa,
+.fas {
+  cursor: pointer;
+}
+.fas:hover {
+  color: red;
+}
+.fa-redo {
+  color: white;
+  font-size: 30px;
+}
